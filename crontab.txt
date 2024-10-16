@@ -1,0 +1,3 @@
+crontab -e
+*/2 * * * * /newproject/script.sh > /newproject/log.txt 2>&1
+crontab -l
